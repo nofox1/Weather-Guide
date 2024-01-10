@@ -39,7 +39,7 @@ const createWeatherCard = (cityName, weatherEl, index) => {
 };
 
 const getWeatherInfo = (searchCityInput, lat, lon) => {
-  const WEATHER_API_URL = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API_KEY}`;
+  const WEATHER_API_URL = `http://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${API_KEY}`;
 
   fetch(WEATHER_API_URL)
     .then((res) => res.json())
@@ -78,7 +78,7 @@ const getWeatherInfo = (searchCityInput, lat, lon) => {
 const getCoordinates = () => {
   const searchCityInput = searchInput.value.trim();
   if (!searchCityInput) return;
-  const GEOCODING_API_URL = `https://api.openweathermap.org/geo/1.0/direct?q=${searchCityInput}&limit=5&appid=${API_KEY}`;
+  const GEOCODING_API_URL = `http://api.openweathermap.org/geo/1.0/direct?q=${searchCityInput}&limit=5&appid=${API_KEY}`;
 
   fetch(GEOCODING_API_URL)
     .then((res) => res.json())
