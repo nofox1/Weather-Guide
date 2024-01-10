@@ -18,7 +18,7 @@ All you need to do to install this handy piece of technology is cloning the repo
 
 ## Usage 
 ![image](https://github.com/nofox1/Weather-Guide/assets/136627240/3b4a5879-3a1b-49cd-af27-d7305b18bf92)
-
+The picture above has a search bar where you can enter any city. Also after you search for the city the data will be inputed to the right and display 5 days of weather.
 
 ## Credits
 https://github.com/nofox1
