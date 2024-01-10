@@ -12,7 +12,7 @@ The weather guide basically is your own personal weather search by your command.
 All you need to do to install this handy piece of technology is cloning the repo and opening it locally and should still give you any city you desire to search.
 
 ## Technologies
-- ![HTML](https://img.shields.io/badge/html-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+- HTML
 - CSS
 - ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
